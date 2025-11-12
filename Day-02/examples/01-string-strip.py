@@ -1,3 +1,4 @@
 text = "   Some spaces around   "
-stripped_text = text.strip()
-print("Stripped text:", stripped_text)
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
