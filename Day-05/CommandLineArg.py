@@ -26,3 +26,7 @@ if operation == "sub":
 if operation == "mul":
     output= mul(num1,num2)
     print(output)
+    
+#Output
+#$ python CommandLineArg.py 3 add 8
+#11

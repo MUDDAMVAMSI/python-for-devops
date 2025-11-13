@@ -12,4 +12,7 @@ def add(a, b):
 
 print(add(5, 3))
 
-   
+#OUTPUT
+#$ python calculatorFunc.py 
+#15
+#8

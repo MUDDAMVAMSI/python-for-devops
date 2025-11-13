@@ -8,6 +8,6 @@ count spaces as well
 Hello (5) 
 + space (1)
 + World (5)
-= 17 characters total
+= 11 characters total
 '''
 

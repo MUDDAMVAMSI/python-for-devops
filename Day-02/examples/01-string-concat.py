@@ -4,3 +4,6 @@ result = str1 + " " + str2
 print(result)
 
 #string must be defined in quotes
+
+#$ python 01-string-concat.py 
+#Hello World

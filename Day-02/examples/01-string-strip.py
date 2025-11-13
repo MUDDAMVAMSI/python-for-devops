@@ -2,3 +2,8 @@ text = "   Some spaces around   "
 print(text.strip())
 print(text.lstrip())
 print(text.rstrip())
+
+#$ python 01-string-strip.py 
+#Some spaces around
+#Some spaces around   
+#  Some spaces around
