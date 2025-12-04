@@ -2,9 +2,9 @@ import os
 
 def list_files_in_folder(folder_path):
     try:
-        files = os.listdir(folder_path)
+        files = os.listdir(folder_path) #imports all files in directory os.listdir()
         return files, None
-    except FileNotFoundError:
+    except FileNotFoundError:  #why we used exceptional handling means to not get erros if no files are found
         return None, "Folder not found"
     except PermissionError:
         return None, "Permission denied"
@@ -23,3 +23,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#step 1: Read input from the user
+#step 2: for loop , folder -->list files
+#step 3: Identify module
+#step 4: print file
+#step 5: Handle any known errors
